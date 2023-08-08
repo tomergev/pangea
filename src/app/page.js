@@ -62,7 +62,7 @@ export default function Home() {
                 old: messageOld,
               } = audit
               return (
-                <tr>
+                <tr key={index}>
                   <td>{index + 1}</td>
                   <td>{messageOld}</td>
                   <td>{messageNew}</td>
