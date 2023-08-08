@@ -9,7 +9,7 @@ This app uses the redact and the secure audit log apis. It's a simple app where 
 ```
   git clone https://github.com/tomergev/pangea.git  
 ```
-2. Run `npm init`
+2. Run `npm install`
 3. Create a `.env.local` file in the root directory   
 4. In your pangea developer's console, create a token and enable redact and secure audit log
 5. Create the variable: `NEXT_PUBLIC_PANGEA_TOKEN` and assign it to the newly created token in the `.env.local` file  
